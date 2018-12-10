@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-10T07:03:55Z" name="Suite" finished-at="2018-12-10T07:05:06Z" duration-ms="70548">
+    <groups>
+    </groups>
+    <test started-at="2018-12-10T07:03:55Z" name="Test" finished-at="2018-12-10T07:05:06Z" duration-ms="70548">
+      <class name="utilities.CommonUtility">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:utilities.CommonUtility@fa36558]" started-at="2018-12-10T07:03:24Z" name="launchBrowser" finished-at="2018-12-10T07:03:55Z" duration-ms="31981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- utilities.CommonUtility -->
+      <class name="test.Book">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:test.Book@672872e1]" started-at="2018-12-10T07:03:55Z" name="startBrowser" finished-at="2018-12-10T07:03:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="Booking()[pri:0, instance:test.Book@672872e1]" started-at="2018-12-10T07:03:56Z" name="Booking" finished-at="2018-12-10T07:05:06Z" duration-ms="70492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Booking -->
+      </class> <!-- test.Book -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
